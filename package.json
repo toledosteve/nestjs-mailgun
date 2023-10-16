@@ -1,5 +1,5 @@
 {
-  "name": "@nextnm/nestjs-mailgun",
+  "name": "@toledosteve/nestjs-mailgun",
   "version": "3.0.1",
   "description": "NestJS provider for sending emails with mailgun",
   "author": "Nuno Carvalhão <nuno.carvalhao@gmail.com>",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NextNC/nestjs-mailgun"
+    "url": "git+https://github.com/NextNC/nestjs-mailgun.git"
   },
   "bugs": {
     "url": "https://github.com/NextNC/nestjs-mailgun"
@@ -77,5 +77,6 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "homepage": "https://github.com/nestjsplus/nestjs-package-starter#readme"
+  "homepage": "https://github.com/nestjsplus/nestjs-package-starter#readme",
+  "types": "./dist/index.d.ts"
 }
